@@ -39,6 +39,7 @@ async function startCall() {
                 incomingCall.answer(localStream);
                 incomingCall.on('stream', remoteStream => {
                     remoteVideo.srcObject = remoteStream;
+                       const call = peer.call(remoteStream, localStream);
                 });
             });
         });
