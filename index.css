@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+   background-color:#001C30;
+}
+.heading{
+    background-color: #163a538a;
+    color: white;
+    justify-content: left;
+    display:flex;
+    height: 55px;
+    align-items: center;
+    padding-left: 70px;
+    margin: 0px;
+    font-size:;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif}
+.icon-heading{
+    font-size: 30px;
+    margin-right: 7px;
+    }
+.heading-button{
+   margin-left: 60px;
+   }    
+.How {
+    border-radius: 50px;
+    font-size: 15px;
+    background-color: whitesmoke;
+    color:#001C30;
+    border: none;
+    padding: 4px;
+    transition: .3s;
+}
+.Help{
+    border-radius: 5px;
+    font-size: 15px;
+    background-color: whitesmoke;
+    color:#001C30;
+    border: none;
+    padding: 4px;
+    transition: .3s;
+}
+.invite1{
+    border-radius: 5px;
+    font-size: 15px;
+    background-color: whitesmoke;
+    color:#001C30;
+    border: none;
+    padding: 4px;
+    transition: .3s;
+    margin-left: 5px;
+}
+.How:hover,.Help:hover,.invite1:hover{
+    color: whitesmoke;
+    background-color:#001C30;
+}
+
+.buttons{
+    
+    align-items: bottom;
+    flex-direction: row;
+    justify-content: center;
+    display: flex;
+    
+    margin-top: 40px;
+    
+    
+    
+ 
+    }
+    .fa-solid{
+        font-size: 25px;
+        border-radius: 15px;
+        padding: 10px;
+        border: none;
+        box-shadow: 2px 2px 2px black;
+        margin-left: 10px;
+    }
+    
+    
+
+    
+    
+.video{
+     display:flex;
+     justify-content: center;
+     align-items: center;
+     height: 425px;
+     
+     padding-top: 30px;
+     
+    
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-toggle {
+    border-radius: 7px;
+    background-color:white;
+    color:#001C30 ;
+    border:none;
+    padding: 4px;
+    cursor: pointer;
+    font-size: 15px;
+   
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    display: none;
+    background-color:#163a538a;
+    border:none;
+    list-style: none;
+    padding:0;
+    margin-top: 14px;
+    width: 500px;
+    color:white;
+    border-radius: 10px;
+}
+
+.dropdown-menu li {
+    padding: 10px;
+}
+
+.dropdown-menu a {
+    text-decoration: none;
+    color: white;
+}
+
+

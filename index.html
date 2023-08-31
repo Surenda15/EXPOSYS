@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Video Call App</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    
+    <div class="heading">
+        <div class="icon-heading">
+      <i class="fa-solid fa-video"></i>
+        </div>
+      <h1 >Connect</h1>
+       <div class="heading-button">
+
+          <div class="dropdown">
+    <button class="dropdown-toggle" id="dropdownButton">
+        How to Call?
+    </button>
+    <ul class="dropdown-menu" id="dropdownMenu">
+        <li><a href="#"> click the call icon to   start the call </a></li>
+        <li><a href="#"> If you want to join the call ,click the connect button and enter peerId which is send by the peer through your Gmail.</a></li>
+        <li><a href="#"> To invite your friends, click the invite button ( top right corner) after following the 'step 1'.  </a></li>
+        <li><a href="#"> The Icons displayed on the page have thier respective functions. </a></li>
+        <li><a href="#"> If you need any help click the 'Help' button . </a></li>
+    </ul>
+</div>
+        
+
+          <button class="Help">Help</button></div>
+          <button class="invite1">Invite</button></div>
+          
+          </div>
+        
+    
+   
+ <div class="main">
+    <div  class="video">
+    <video id="localVideo" autoplay muted class="localvideo"></video>
+    <video id="remoteVideo" autoplay  class="remotevideo"></video>
+    </div>
+    <div class="buttons">
+    <button id="startButton"  class="fa-solid fa-phone"></button>
+    <button id="stopButton" class="fa-solid fa-phone-slash"></button>
+    <button id="connectButton"  class="fa-solid fa-up-right-from-square"></button>
+    <button id="audiocontrol" class="fa-solid fa-microphone"></button>
+    <button id="videocontrol" class="fa-solid fa-video"></button>
+    </div>
+</div>
+    <input type="email" id="recipientEmail" placeholder="Enter recipient email">
+    <button id="sendButton" class="invite">invite</button>
+    <a href="https://surenda15.github.io/index.html/" id="weblink"></a>
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/peerjs/1.3.2/peerjs.min.js"></script>
+     <script src="index.js"></script>
+     <link rel="stylesheet" href="index.css">
+     
+
+</body>
+</html>
