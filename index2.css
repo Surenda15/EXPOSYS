@@ -1,0 +1,66 @@
+*{
+    margin:0;
+    padding:0;
+}
+.main{
+    background-color: aqua;
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 800px;
+}
+.heading{
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 50px;
+}    
+.hike{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+    padding-right: 300px;
+    
+}
+.dropdown-toggle,.dropdown-toggle1{
+    outline:none;
+    border-radius:5px;
+    margin-left: 10px;
+
+}
+.fa-solid {
+    font-size: 30px;
+    padding-right:5px;
+    margin-top: 7px;
+    
+}
+/* Styles for screens with a maximum width of 480px (typical mobile phones) */
+@media screen and (max-width: 480px) {
+    .main{
+        column-gap:50px;
+    }
+    .dropdown-toggle,.dropdown-toggle1{
+
+    }
+}
+/* Styles for screens with a minimum width of 481px and a maximum width of 768px (typical tablets) */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .main{
+        column-gap:100px;
+    }
+}
+/* Styles for screens with a minimum width of 769px (typical desktops and laptops) */
+@media screen and (min-width: 769px) {
+    .main{
+        column-gap:300px;
+    }
+    .fa-solid {
+        font-size: 30px;
+        padding-right:5px;
+        margin-top: 7px;
+}
+}
+/* Styles for screens with a minimum width of 1200px (large desktops) */
+@media screen and (min-width: 1200px) {
+    .main{
+        column-gap:700px;
+    }
+}
